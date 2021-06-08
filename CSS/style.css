@@ -109,5 +109,18 @@ body{
     margin: 1px auto;
 
 }
+.down{
+    /* border: 2px solid white; */
+    display: inline-block;
+    width: 29%;
+    height: 33%;
+    position: absolute;
+    top: 414px;
+    right: 23px;
+    color: antiquewhite;
+    border-radius: 5px;
+}
 
-
+.down h1 {
+    text-align: center;
+}
