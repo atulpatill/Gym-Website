@@ -1,2 +1,4 @@
 # Gym-Website
- Gym website landing page
+
+1. Build a landing page of Gym website.
+1. Included Form into landing page. 
