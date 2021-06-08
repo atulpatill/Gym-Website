@@ -1,0 +1,113 @@
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('Img/abs-1850926_1920.jpg');
+    background-repeat: no-repeat;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    color: white;
+    position: absolute;
+    left: 34px;
+    top:20px;
+}
+.Mid{
+    display: block;
+    /* border: 2px solid yellow; */
+    color: white;
+    width: 43%;
+    margin: 20px auto;
+}
+.Right{
+    display: inline-block;
+    /* border: 2px solid white; */
+    color: white;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+   
+.navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 34px 23px;
+  
+}
+.navbar li a:hover,.navbar li a.active {
+    color: grey;
+    text-decoration: underline;
+
+}
+.btn{
+    margin: 0px 9px;
+    padding: 3px 13px;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 18px;
+}
+.btn:hover{
+    color: grey;
+    background-color:rgb(41, 16, 16) ;
+    
+}
+ .left img{
+    width: 197px;
+    height: 94px;
+}
+.left h2{
+    text-align: center;
+    line-height: 0;
+    font-size: 37px;
+    color: rgb(143, 110, 104);
+}
+
+.container{
+    display: block;
+    width: 50%;
+    margin: 136px 77px;
+    /* border: 2px solid white; */
+    border-radius: 15px;
+}
+
+.container h1{
+    color: white;
+    
+    text-align: center;
+}
+.input{
+    display: block;
+    width: 80%;
+    margin: 1px auto;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Baloo Bhaina 2', cursive;
+}
+
+.gender{
+    color: whitesmoke;
+}
+.form-group button{
+    display: block;
+    width:50% ;
+    margin: 1px auto;
+
+}
+
+
